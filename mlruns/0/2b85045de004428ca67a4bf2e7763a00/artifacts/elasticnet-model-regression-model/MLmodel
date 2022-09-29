@@ -1,0 +1,17 @@
+artifact_path: elasticnet-model-regression-model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.2
+mlflow_version: 1.29.0
+model_uuid: 9e7ecfc75ebd4a8797888f6bc18508be
+run_id: 2b85045de004428ca67a4bf2e7763a00
+utc_time_created: '2022-09-28 23:02:04.497548'
